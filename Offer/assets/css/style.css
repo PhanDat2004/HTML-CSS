@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: Helvetica, sans-serif;
+}
+
+.offer {
+  background: url(/assets/img/bg_special.png) no-repeat left top;
+  color: #fff;
+  padding: 80px 0 60px;
+  text-align: center;
+  width: 100%;
+}
+
+.offer__heading {
+  font-size: 21px;
+  margin-bottom: 30px;
+}
+
+.offer__desc {
+  font-size: 1.4rem;
+  margin-bottom: 30px;
+}
+
+.offer__btn {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 16px 11px;
+  border: 1px solid #942911;
+  box-shadow: inset 0px 0px 0px 0px #cf866c;
+  text-shadow: 0px 1px 0px #854629;
+  background: linear-gradient(to bottom, #e4553f 5%, #d83f2e 100%);
+  transition: 0.3s all;
+}
+
+.offer__btn:hover {
+  opacity: 0.8;
+}
